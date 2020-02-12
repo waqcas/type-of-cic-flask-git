@@ -10,8 +10,8 @@ import os
 
 def Menu_func():
     import os
-    capitalLet = os.environ['$AWS_PASS']
-    smallLet = os.environ['$aws-pass']
+    capitalLet = os.environ['AWS_PASS']
+    smallLet = os.environ['aws-pass']
     
 
     #if request.method == 'POST':
