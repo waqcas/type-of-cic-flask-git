@@ -10,8 +10,8 @@ import os
 
 def Menu_func():
     import os
-    capitalLet = os.environ['AWS_PASS']
-    smallLet = os.environ['aws-pass']
+    #capitalLet = os.environ['AWS_PASS']
+    #smallLet = os.environ['aws-pass']
     
 
     #if request.method == 'POST':
@@ -24,7 +24,7 @@ def Menu_func():
         
         #return redirect(google_url_1+Input_str+google_url_2,code=302)
     
-    return render_template('Frontpage.html',capitalLet = capitalLet, smallLet = smallLet)
+    return render_template('Frontpage.html')
 
 
 
